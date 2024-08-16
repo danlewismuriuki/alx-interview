@@ -101,8 +101,10 @@ finally:
 
 #     The line is expected to have a specific format. This function
 #         extracts the status
-#     code and file size from the line, updates the count for the status code and
-#     accumulates the total file size. It also prints statistics every 10 lines.
+#     code and file size from the line, updates the count for the status
+#     code and
+#     accumulates the total file size. It also prints statistics every
+#     10 lines.
 #     """
 #     global total_file_size, status_code_count, line_count
 
@@ -156,10 +158,10 @@ finally:
 # # traceback.print_exc()
 
 
-#!/usr/bin/python3
+# #!/usr/bin/python3
 
 
-def print_msg(dict_sc, total_file_size):
+# def print_msg(dict_sc, total_file_size):
     """
     Method to print
     Args:
