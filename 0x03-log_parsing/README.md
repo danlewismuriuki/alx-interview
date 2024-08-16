@@ -18,7 +18,7 @@ This project focuses on parsing and processing data streams in real-time using P
 - All files are interpreted/compiled on Ubuntu 20.04 LTS using Python 3 (version 3.4.3).
 - Code adheres to the PEP 8 style guide (version 1.7.x).
 - All files are executable and end with a new line.
-- The first line of all scripts is `#!/usr/bin/python3`.
+- The first line of all scripts is `#!/usr/bin/python3`
 
 ## Project Files
 
