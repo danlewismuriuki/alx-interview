@@ -5,9 +5,10 @@ Determines the winner of a game based on the number of
 primes between
 """
 
+
 def isWinner(x, nums):
     """
-    Determines the winner of a game based on the number of primes between 
+    Determines the winner of a game based on the number of primes between
     1 and each number in the `nums` list, using the Sieve of Eratosthenes.
     """
     max_n = max(nums)
@@ -26,7 +27,6 @@ def isWinner(x, nums):
 
     maria_wins = 0
     ben_wins = 0
-
 
     for n in nums:
         if prime_count[n] % 2 == 0:
