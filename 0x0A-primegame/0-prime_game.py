@@ -1,4 +1,15 @@
+#!/usr/bin/python3
+
+"""
+Determines the winner of a game based on the number of
+primes between
+"""
+
 def isWinner(x, nums):
+    """
+    Determines the winner of a game based on the number of primes between 
+    1 and each number in the `nums` list, using the Sieve of Eratosthenes.
+    """
     max_n = max(nums)
 
     sieve = [True] * (max_n + 1)
