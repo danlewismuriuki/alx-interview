@@ -11,7 +11,13 @@ def isWinner(x, nums):
     Determines the winner of a game based on the number of primes between
     1 and each number in the `nums` list, using the Sieve of Eratosthenes.
     """
+    if x < 1 or not nums:
+        return None
+
     max_n = max(nums)
+
+    if max_n < 2:
+        return None
 
     sieve = [True] * (max_n + 1)
     sieve[0] = sieve[1] = False
